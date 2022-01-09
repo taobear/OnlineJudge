@@ -1,1 +1,3 @@
 add_subdirectory(Interview01_IntegerDivide)
+
+add_subdirectory(Interview02_AddBinary)
