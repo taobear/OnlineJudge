@@ -1,0 +1,1 @@
+add_executable(Interview04_FindSingleNumble test_singleNumber.cpp singleNumber.cpp)

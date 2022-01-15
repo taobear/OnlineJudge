@@ -1,3 +1,7 @@
-add_subdirectory(Interview01_IntegerDivide)
+add_subdirectory(Interview01_DivideInteger)
 
 add_subdirectory(Interview02_AddBinary)
+
+add_subdirectory(Interview03_CountBitOne)
+
+add_subdirectory(Interview04_FindSingleNumber)
