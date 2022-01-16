@@ -5,3 +5,5 @@ add_subdirectory(Interview02_AddBinary)
 add_subdirectory(Interview03_CountBitOne)
 
 add_subdirectory(Interview04_FindSingleNumber)
+
+add_subdirectory(Interview05_WordLenMaxProduct)
