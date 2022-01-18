@@ -10,7 +10,7 @@ inline void print_1d_nums(int *nums, int size)
     }
 
     printf("[");
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size - 1; i++) {
         printf("%d, ", nums[i]);
     }
 

@@ -1,0 +1,1 @@
+add_executable(Interview06_TwoSum test_twoSum.cpp twoSum.cpp)
