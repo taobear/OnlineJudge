@@ -1,1 +1,3 @@
 add_subdirectory(Interview06_TwoSum)
+
+add_subdirectory(Interview07_ThreeSum)
