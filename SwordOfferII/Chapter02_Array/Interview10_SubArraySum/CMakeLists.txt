@@ -1,0 +1,1 @@
+add_executable(Interview10_SubArraySum test_subarraySum.cpp)

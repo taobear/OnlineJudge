@@ -5,3 +5,5 @@ add_subdirectory(Interview07_ThreeSum)
 add_subdirectory(Interview08_MinSubArrayLen)
 
 add_subdirectory(Interview09_NumSubArrayProductLessThanK)
+
+add_subdirectory(Interview10_SubArraySum)
