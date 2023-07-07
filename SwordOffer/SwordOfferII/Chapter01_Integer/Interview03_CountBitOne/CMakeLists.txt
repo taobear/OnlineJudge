@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview03_CountBitOne test_countBits.cpp countBits.cpp)
+target_link_libraries(SwordOfferII_Interview03_CountBitOne gtest gtest_main)

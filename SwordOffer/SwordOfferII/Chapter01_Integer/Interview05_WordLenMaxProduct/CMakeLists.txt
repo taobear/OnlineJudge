@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview05_WordLenMaxProduct test_maxProduct.cpp maxProduct.cpp)
+target_link_libraries(SwordOfferII_Interview05_WordLenMaxProduct gtest gtest_main)

@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview01_DivideInteger test_divide.cpp divide.cpp)
+target_link_libraries(SwordOfferII_Interview01_DivideInteger gtest gtest_main)

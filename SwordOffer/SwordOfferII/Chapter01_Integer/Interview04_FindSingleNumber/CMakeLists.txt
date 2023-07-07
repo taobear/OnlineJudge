@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview04_FindSingleNumble test_singleNumber.cpp singleNumber.cpp)
+target_link_libraries(SwordOfferII_Interview04_FindSingleNumble gtest gtest_main)

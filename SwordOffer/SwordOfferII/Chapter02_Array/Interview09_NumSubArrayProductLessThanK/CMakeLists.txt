@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview09_NumSubArrayProductLessThanK test_numSubarrayProductLessThanK.cpp numSubarrayProductLessThanK.cpp)
+target_link_libraries(SwordOfferII_Interview09_NumSubArrayProductLessThanK gtest gtest_main)

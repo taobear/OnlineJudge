@@ -1,0 +1,2 @@
+add_executable(SwordOfferII_Interview06_TwoSum test_twoSum.cpp twoSum.cpp)
+target_link_libraries(SwordOfferII_Interview06_TwoSum gtest gtest_main)
