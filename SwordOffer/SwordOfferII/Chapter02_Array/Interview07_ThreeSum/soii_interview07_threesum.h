@@ -1,5 +1,5 @@
-#ifndef __THREE_SUM_H_
-#define __THREE_SUM_H_
+#ifndef SOII_INTERVIEW07_THREE_SUM_H_
+#define SOII_INTERVIEW07_THREE_SUM_H_
 
 #include <vector>
 #include <algorithm>

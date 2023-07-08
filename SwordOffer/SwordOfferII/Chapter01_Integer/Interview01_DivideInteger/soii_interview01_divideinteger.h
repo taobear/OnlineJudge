@@ -1,5 +1,5 @@
-#ifndef __DIVIDE_H_
-#define __DIVIDE_H_
+#ifndef SOII_INTERVIEW01_DIVIDE_H_
+#define SOII_INTERVIEW01_DIVIDE_H_
 
 /*
 给定两个整数 a 和 b ，求它们的除法的商 a/b ，要求不得使用乘号 '*'、除号 '/' 以及求余符号 '%' 。

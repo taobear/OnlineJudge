@@ -1,4 +1,4 @@
-#include "subarraySum.h"
+#include "soii_interview10_subarraysum.h"
 
 #include <gtest/gtest.h>
 

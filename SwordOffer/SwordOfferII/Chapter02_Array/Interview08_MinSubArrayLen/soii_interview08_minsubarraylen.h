@@ -1,5 +1,5 @@
-#ifndef __MIN_SUB_ARRAY_LEN_H_
-#define __MIN_SUB_ARRAY_LEN_H_
+#ifndef SOII_INTERVIEW08_MIN_SUB_ARRAY_LEN_H_
+#define SOII_INTERVIEW08_MIN_SUB_ARRAY_LEN_H_
 
 /*
 给定一个含有 n 个正整数的数组和一个正整数 target 。

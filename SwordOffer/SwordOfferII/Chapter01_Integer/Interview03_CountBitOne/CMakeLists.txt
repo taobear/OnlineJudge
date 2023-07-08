@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview03_CountBitOne test_countBits.cpp countBits.cpp)
+aux_source_directory(. CountBitOne_Src)
+add_executable(SwordOfferII_Interview03_CountBitOne ${CountBitOne_Src})
 target_link_libraries(SwordOfferII_Interview03_CountBitOne gtest gtest_main)

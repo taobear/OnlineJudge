@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview05_WordLenMaxProduct test_maxProduct.cpp maxProduct.cpp)
+aux_source_directory(. WordLenMaxProduct_Src)
+add_executable(SwordOfferII_Interview05_WordLenMaxProduct ${WordLenMaxProduct_Src})
 target_link_libraries(SwordOfferII_Interview05_WordLenMaxProduct gtest gtest_main)

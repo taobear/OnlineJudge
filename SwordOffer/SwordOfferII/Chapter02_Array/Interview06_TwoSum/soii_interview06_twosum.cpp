@@ -1,4 +1,4 @@
-#include "twoSum.h"
+#include "soii_interview06_twosum.h"
 
 #include <stdlib.h>
 

@@ -1,9 +1,7 @@
-#include "countBits.h"
+#include "soii_interview03_countbits.h"
 
 #include <stdio.h>
 #include <gtest/gtest.h>
-
-#include "print.h"
 
 TEST(TEST_SwordOfferII_Interview03_CountBitOne, Test1)
 {

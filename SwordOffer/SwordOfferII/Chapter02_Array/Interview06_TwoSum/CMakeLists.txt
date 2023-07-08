@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview06_TwoSum test_twoSum.cpp twoSum.cpp)
+aux_source_directory(. TwoSum_Src)
+add_executable(SwordOfferII_Interview06_TwoSum ${TwoSum_Src})
 target_link_libraries(SwordOfferII_Interview06_TwoSum gtest gtest_main)

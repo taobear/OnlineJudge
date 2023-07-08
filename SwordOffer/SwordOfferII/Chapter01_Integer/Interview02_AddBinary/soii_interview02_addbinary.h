@@ -1,5 +1,5 @@
-#ifndef __ADD_BINARY_H_
-#define __ADD_BINARY_H_
+#ifndef SOII_INTERVIEW02_ADD_BINARY_H_
+#define SOII_INTERVIEW02_ADD_BINARY_H_
 
 /*
 给定两个 01 字符串 a 和 b ，请计算它们的和，并以二进制字符串的形式输出。

@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview01_DivideInteger test_divide.cpp divide.cpp)
+aux_source_directory(. DivideInteger_Src)
+add_executable(SwordOfferII_Interview01_DivideInteger ${DivideInteger_Src})
 target_link_libraries(SwordOfferII_Interview01_DivideInteger gtest gtest_main)

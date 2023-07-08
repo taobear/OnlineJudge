@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview08_MinSubArrayLen test_minSubArrayLen.cpp minSubArrayLen.cpp)
+aux_source_directory(. MinSubArrayLen_Src)
+add_executable(SwordOfferII_Interview08_MinSubArrayLen ${MinSubArrayLen_Src})
 target_link_libraries(SwordOfferII_Interview08_MinSubArrayLen gtest gtest_main)

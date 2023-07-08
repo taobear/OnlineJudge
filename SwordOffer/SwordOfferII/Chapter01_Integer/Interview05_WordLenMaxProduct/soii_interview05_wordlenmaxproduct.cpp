@@ -1,4 +1,4 @@
-#include "maxProduct.h"
+#include "soii_interview05_wordlenmaxproduct.h"
 
 #include <string.h>
 #include <stdlib.h>

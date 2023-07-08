@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview10_SubArraySum test_subarraySum.cpp)
+aux_source_directory(. SubArraySum_Src)
+add_executable(SwordOfferII_Interview10_SubArraySum ${SubArraySum_Src})
 target_link_libraries(SwordOfferII_Interview10_SubArraySum gtest gtest_main)

@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview07_ThreeSum test_threeSum.cpp)
+aux_source_directory(. ThreeSum_Src)
+add_executable(SwordOfferII_Interview07_ThreeSum ${ThreeSum_Src})
 target_link_libraries(SwordOfferII_Interview07_ThreeSum gtest gtest_main)

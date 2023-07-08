@@ -1,2 +1,3 @@
-add_executable(SwordOfferII_Interview04_FindSingleNumble test_singleNumber.cpp singleNumber.cpp)
+aux_source_directory(. FindNumber_Src)
+add_executable(SwordOfferII_Interview04_FindSingleNumble ${FindNumber_Src})
 target_link_libraries(SwordOfferII_Interview04_FindSingleNumble gtest gtest_main)
