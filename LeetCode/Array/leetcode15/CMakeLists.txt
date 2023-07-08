@@ -1,1 +1,0 @@
-add_executable(leetcode15 test_threeSum.cpp threeSum.cpp)

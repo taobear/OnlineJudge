@@ -17,4 +17,6 @@ FetchContent_MakeAvailable(googletest)
 include_directories(${googletest_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/util)
 
+
+add_subdirectory(LeetCode)
 add_subdirectory(SwordOffer)

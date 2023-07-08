@@ -1,3 +1,3 @@
-add_subdirectory(leetcode15)
+add_subdirectory(LeetCode15_ThreeSum)
 
-add_subdirectory(leetcode152)
+# add_subdirectory(leetcode152)

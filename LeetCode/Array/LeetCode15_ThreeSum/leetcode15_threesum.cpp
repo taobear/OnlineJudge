@@ -1,4 +1,4 @@
-#include "threeSum.h"
+#include "leetcode15_threesum.h"
 
 #include <stdlib.h>
 #include <stdio.h>
