@@ -1,7 +1,5 @@
 #include "leetcode215_findkthlargest.h"
 
-#include <algorithm>
-
 void swap(int *nums, int i, int j)
 {
     if (i == j) {

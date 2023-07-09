@@ -1,7 +1,6 @@
 #include "leetcode215_findkthlargest.h"
 
 #include <gtest/gtest.h>
-#include <stdio.h>
 
 TEST(Test_LeetCode215_FindKthLargest, Test1)
 {
