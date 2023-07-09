@@ -1,28 +1,22 @@
 #include "leetcode215_findkthlargest.h"
 
+#include <gtest/gtest.h>
 #include <stdio.h>
 
-void test1()
+TEST(Test_LeetCode215_FindKthLargest, Test1)
 {
     int nums[] = {3, 2, 1, 5, 6, 4};
+    int numsSize = sizeof(nums) /sizeof(*nums);
     int k = 2;
 
-    printf("test1(): %d\n", findKthLargest(nums, numsSize, k));
+    EXPECT_EQ(findKthLargest(nums, numsSize, k), 5);
 }
 
-void test2()
+TEST(Test_LeetCode215_FindKthLargest, Test2)
 {
     int nums[] = {3, 2, 3, 1, 2, 4, 5, 5, 6};
+    int numsSize = sizeof(nums) / sizeof(*nums);
     int k = 4;
 
-    printf("test2(): %d\n", findKthLargest(nums, numsSize, k));
-}
-
-int main(int argc, char **argv)
-{
-    test1();
-
-    test2();
-
-    return 0;
+    EXPECT_EQ(findKthLargest(nums, numsSize, k), 4);
 }
